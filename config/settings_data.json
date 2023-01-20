@@ -1,0 +1,46 @@
+{
+  "current": {
+    "body_text_color": "#261d1d",
+    "heading_text_color": "#121212",
+    "body_background_color": "#f5e8e8",
+    "type_header_font": "mono",
+    "heading_scale": 100,
+    "type_body_font": "ibm_plex_sans_n4",
+    "body_scale": 100,
+    "page_width": 1440,
+    "spacing_grid_horizontal": 15,
+    "spacing_grid_vertical": 15,
+    "social_twitter_link": "",
+    "social_facebook_link": "",
+    "social_pinterest_link": "",
+    "social_instagram_link": "",
+    "social_tiktok_link": "",
+    "social_tumblr_link": "",
+    "social_snapchat_link": "",
+    "social_youtube_link": "",
+    "social_vimeo_link": "",
+    "content_for_index": [
+
+    ]
+  },
+  "presets": {
+    "Default": {
+      "type_header_font": "din_next_n5",
+      "heading_scale": 100,
+      "type_body_font": "open_sans_n4",
+      "body_scale": 100,
+      "page_width": 1440,
+      "spacing_grid_horizontal": 15,
+      "spacing_grid_vertical": 15,
+      "social_twitter_link": "",
+      "social_facebook_link": "",
+      "social_pinterest_link": "",
+      "social_instagram_link": "",
+      "social_tiktok_link": "",
+      "social_tumblr_link": "",
+      "social_snapchat_link": "",
+      "social_youtube_link": "",
+      "social_vimeo_link": ""
+    }
+  }
+}

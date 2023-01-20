@@ -1,0 +1,71 @@
+{% if section.blocks.size > 0 %}
+  <div class="testimonial container">
+    <div class="page-width">
+      <div class="h2 center">{{ section.settings.heading }}</div>
+      <div class="testimonial_wrapper justify-center" data-flickity='{ "cellAlign": "left", "contain": true, "pageDots": false}'>
+        {% for block in section.blocks %}
+          <div class="testimonial_items">
+            <div class="testimonial_image">
+              {% if block.settings.author_image != blank %}
+                {% render 'image',
+                  class: 'media media--circle',
+                  mobileSrc: block.settings.author_image,
+                  desktopSrc: block.settings.author_image
+                %}
+              {% endif %}
+            </div>
+          <div class="testimonial__content">
+            <div class="testimonial_paragraph">{{ block.settings.text }}</div>
+            <div class="author_name">{{ block.settings.author_name }}</div>
+          </div>
+          </div>
+        {% endfor %}
+      </div>
+    
+    </div>
+  </div>
+{% endif %}
+{% schema %}
+{
+  "name": "Testimonials thrid",
+  "tag": "section",
+  "class": "homepage-section",
+  "settings": [
+    {
+      "type": "text",
+      "id": "heading",
+      "label": "Heading",
+      "default": "What our client says"
+    }
+  ],
+  "blocks": [
+    {
+      "name": "testimonial item",
+      "type": "testimonial_item",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "author_image",
+          "label": "Author image",
+          "info": "100 X 100 .jpg (recommonded)"
+        },
+        {
+          "type": "richtext",
+          "id": "text",
+          "label": "Text"
+        },
+        {
+          "type": "text",
+          "id": "author_name",
+          "label": "Author name"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Testimonials thrid"
+    }
+  ]
+}
+{% endschema %}

@@ -1,0 +1,199 @@
+{
+  "sections": {
+    "19f48a20-ba51-480f-95c2-b08cccd0df87": {
+      "type": "Testamonial-section",
+      "disabled": true,
+      "blocks": {
+        "9ad2fc7c-1551-4e2a-a6b8-ebf6f1e35ec3": {
+          "type": "testimonial-content",
+          "settings": {
+            "testimonials_section_image": "shopify:\/\/shop_images\/lookmobile_750x800_crop_center_b60484c6-54a7-4a58-a478-5b6866649643.webp",
+            "review_start": "4",
+            "paragraph_text": "<p>It's Mecca of all the sports enthusiastic. One stopt shop for all your sports need. the variety of equipments ypu need for any of your favourites sprots is there.The quantity of product is also good<\/p>",
+            "author_name": "<p>John smith\/London<\/p>"
+          }
+        },
+        "8fdbca7a-e146-424b-ada7-b5ee588ce04c": {
+          "type": "testimonial-content",
+          "settings": {
+            "testimonials_section_image": "shopify:\/\/shop_images\/loftheromobile_1512x-mobile.webp",
+            "review_start": "4",
+            "paragraph_text": "<p>It's Mecca of all the sports enthusiastic. One stopt shop for all your sports need. the variety of equipments ypu need for any of your favourites sprots is there.The quantity of product is also good<\/p>",
+            "author_name": "<p>John smith\/London<\/p>"
+          }
+        },
+        "21ac21fc-63e0-499a-9a0d-ceefc2ed9362": {
+          "type": "testimonial-content",
+          "settings": {
+            "testimonials_section_image": "shopify:\/\/shop_images\/babe-2972220__340.jpg",
+            "review_start": "4",
+            "paragraph_text": "<p>It's Mecca of all the sports enthusiastic. One stopt shop for all your sports need. the variety of equipments ypu need for any of your favourites sprots is there.The quantity of product is also good<\/p>",
+            "author_name": "<p>John smith\/London<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "9ad2fc7c-1551-4e2a-a6b8-ebf6f1e35ec3",
+        "8fdbca7a-e146-424b-ada7-b5ee588ce04c",
+        "21ac21fc-63e0-499a-9a0d-ceefc2ed9362"
+      ],
+      "settings": {
+        "heading_text": "WHAT YOUR CLIENTS SAY"
+      }
+    },
+    "0e26fe53-84d3-48f6-b684-f803957cf0bf": {
+      "type": "testamonial-second-model",
+      "disabled": true,
+      "blocks": {
+        "8c23043d-04bd-44ec-8d38-73493cdf9974": {
+          "type": "testimonial_item",
+          "settings": {
+            "rating": "5",
+            "text": "<p>I'm particular about which kind of skin products I use, but I love Chelsea. They are easy on my skin and last longer than you'd expect!<\/p>",
+            "author_name": "Elle Spearman"
+          }
+        },
+        "d4998383-bbf1-4b97-89e7-193cdbee6264": {
+          "type": "testimonial_item",
+          "settings": {
+            "rating": "3",
+            "text": "<p>I've tried lots of skin products and what makes Chelsea special for me is simple - it just works. You can't beat the Thermal spring water.<\/p>",
+            "author_name": "Jasmine Ortega"
+          }
+        },
+        "3e467f1f-031a-457e-85ef-5e1157f2c51e": {
+          "type": "testimonial_item",
+          "settings": {
+            "rating": "4",
+            "text": "<p>I work long days, part of it outside, so I need moisturizer that will bear the elements but also stay within my budget. I'm so glad I found Chelsea!<\/p>",
+            "author_name": "Maline Li"
+          }
+        },
+        "f67a5f63-44db-4365-95e2-cb3d488d363b": {
+          "type": "testimonial_item",
+          "settings": {
+            "rating": "4",
+            "text": "<p>I've tried lots of skin products and what makes Chelsea special for me is simple - it just works. You can't beat the Thermal spring water.<\/p>",
+            "author_name": "Jasmine Ortega"
+          }
+        },
+        "d554e7a3-0db4-4b34-8c16-08fc77099c97": {
+          "type": "testimonial_item",
+          "settings": {
+            "rating": "4",
+            "text": "<p>I work long days, part of it outside, so I need moisturizer that will bear the elements but also stay within my budget. I'm so glad I found Chelsea!<\/p>",
+            "author_name": "Maline Li"
+          }
+        },
+        "875a5f51-3e87-44f7-90b9-6b5e43ed6a0c": {
+          "type": "testimonial_item",
+          "settings": {
+            "rating": "4",
+            "text": "<p>I've tried lots of skin products and what makes Chelsea special for me is simple - it just works. You can't beat the Thermal spring water.<\/p>",
+            "author_name": "Jasmine Ortega"
+          }
+        }
+      },
+      "block_order": [
+        "8c23043d-04bd-44ec-8d38-73493cdf9974",
+        "d4998383-bbf1-4b97-89e7-193cdbee6264",
+        "3e467f1f-031a-457e-85ef-5e1157f2c51e",
+        "f67a5f63-44db-4365-95e2-cb3d488d363b",
+        "d554e7a3-0db4-4b34-8c16-08fc77099c97",
+        "875a5f51-3e87-44f7-90b9-6b5e43ed6a0c"
+      ],
+      "settings": {
+        "heading": "What our client says"
+      }
+    },
+    "a0e0959e-af13-406e-986a-cfc1b57a4125": {
+      "type": "testamonial-third-model",
+      "disabled": true,
+      "blocks": {
+        "28c3f965-b79c-4427-82a0-b63b46a6b07d": {
+          "type": "testimonial_item",
+          "settings": {
+            "author_image": "shopify:\/\/shop_images\/lookmobile_750x800_crop_center_b60484c6-54a7-4a58-a478-5b6866649643.webp",
+            "text": "<p>I'm particular about which kind of skin products I use, but I love Chelsea. They are easy on my skin and last longer than you'd expect!<\/p>",
+            "author_name": "-Elle Spearman"
+          }
+        },
+        "75d51dd0-7f90-4081-9e43-6fb92c6fa8c7": {
+          "type": "testimonial_item",
+          "settings": {
+            "author_image": "shopify:\/\/shop_images\/lookmobile_750x800_crop_center_b60484c6-54a7-4a58-a478-5b6866649643.webp",
+            "text": "<p>I've tried lots of skin products and what makes Chelsea special for me is simple - it just works. You can't beat the Thermal spring water.<\/p>",
+            "author_name": "-Jasmine Ortega"
+          }
+        },
+        "fcd8ccdb-2a9d-4b03-b7c2-1a76263eaa57": {
+          "type": "testimonial_item",
+          "settings": {
+            "author_image": "shopify:\/\/shop_images\/lookmobile_750x800_crop_center_b60484c6-54a7-4a58-a478-5b6866649643.webp",
+            "text": "<p>I work long days, part of it outside, so I need moisturizer that will bear the elements but also stay within my budget. I'm so glad I found Chelsea!<\/p>",
+            "author_name": "-Maline Li"
+          }
+        }
+      },
+      "block_order": [
+        "28c3f965-b79c-4427-82a0-b63b46a6b07d",
+        "75d51dd0-7f90-4081-9e43-6fb92c6fa8c7",
+        "fcd8ccdb-2a9d-4b03-b7c2-1a76263eaa57"
+      ],
+      "settings": {
+        "heading": "What our client says"
+      }
+    },
+    "50a04b35-3f47-4e1e-9e8a-5b3f3cccc864": {
+      "type": "testamonial-fourth-model",
+      "blocks": {
+        "5ff78adc-03da-4052-aebf-efc57ddd6567": {
+          "type": "testimonial_item",
+          "settings": {
+            "bg_color": "#132e1a",
+            "text_id": "Codecademy Stories",
+            "text_content": "<p>Codecademy has nailed down the testimonials section of its website, which is called \"Codecademy Stories.\" <\/p>",
+            "rating": "4",
+            "text": "<p>You’ll find users of all ages and backgrounds using and succeeding with Codeacademy — meaning that the product is for you regardless of your background in the discipline. The brand uses both video and written formats to deliver its message to prospects.<\/p>",
+            "author_name": "Martha Chumo"
+          }
+        },
+        "f9ab331f-007a-4ecd-aa54-51c07424dc95": {
+          "type": "testimonial_item",
+          "settings": {
+            "bg_color": "#132e1a",
+            "text_id": "cxzccccccccccccccc",
+            "text_content": "<p>xccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc<\/p>",
+            "rating": "1",
+            "text": "<p>vcccccccccccccccccccccccccccccccccccccccccccc<\/p>",
+            "author_name": "cvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv"
+          }
+        },
+        "78281f89-7a2d-4b93-a9bd-7c179b83cd1d": {
+          "type": "testimonial_item",
+          "settings": {
+            "bg_color": "",
+            "text_id": "",
+            "text_content": "",
+            "rating": "1",
+            "text": "",
+            "author_name": ""
+          }
+        }
+      },
+      "block_order": [
+        "5ff78adc-03da-4052-aebf-efc57ddd6567",
+        "f9ab331f-007a-4ecd-aa54-51c07424dc95",
+        "78281f89-7a2d-4b93-a9bd-7c179b83cd1d"
+      ],
+      "settings": {
+      }
+    }
+  },
+  "order": [
+    "19f48a20-ba51-480f-95c2-b08cccd0df87",
+    "0e26fe53-84d3-48f6-b684-f803957cf0bf",
+    "a0e0959e-af13-406e-986a-cfc1b57a4125",
+    "50a04b35-3f47-4e1e-9e8a-5b3f3cccc864"
+  ]
+}

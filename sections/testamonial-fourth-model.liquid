@@ -1,0 +1,88 @@
+{% if section.blocks.size > 0 %}
+  
+    
+      <div class="testimonials_wrappers" data-flickity='{ "cellAlign": "left", "contain": true, "pageDots": false}'>
+        {% for block in section.blocks %}
+          <div class="testimonials_items justify-center">
+            <div class="testimonial__title">{{ block.settings.text_id }}</div>
+            <div class="testimonial__content">{{ block.settings.text_content }}</div>
+            <div class="rating">
+              {% for star in (1..block.settings.rating) %}
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24">
+                  <path d="M12 .587l3.668 7.568 8.332 1.151-6.064 5.828 1.48 8.279-7.416-3.967-7.417 3.967 1.481-8.279-6.064-5.828 8.332-1.151z"/>
+                </svg>
+              {% endfor %}
+            </div>
+            <div class="testimonial_paragraph">{{ block.settings.text }}</div>
+            <div class="author_name">{{ block.settings.author_name |upcase }}</div>
+          </div>
+        {% endfor %}
+      </div>
+    
+  
+{% endif %}
+
+ {% style %}  
+   {% for block in section.blocks %}
+   .testimonials_items{
+     background-color:{{block.settings.bg_color}}
+   }
+     {% endfor %}}
+   {% endstyle %}
+{% schema %}
+{
+  "name": "Testimonials fourth",
+  "tag": "section",
+  "class": "homepage-section",
+  "blocks": [
+    {
+      "name": "testimonial item",
+      "type": "testimonial_item",
+      "settings": [
+        {
+          "type":"color",
+          "id":"bg_color",
+          "label":"Background color"
+        },
+        {
+          "type": "text",
+          "id":"text_id",
+          "label": "Text id"   
+        },
+        {
+          "type": "richtext",
+          "id": "text_content",
+          "label": "Text content"
+        },
+        {
+          "type": "select",
+          "id": "rating",
+          "label": "Review",
+          "options": [
+            { "value": "1", "label": "1 Star" },
+            { "value": "2", "label": "2 Star" },
+            { "value": "3", "label": "3 Star" },
+            { "value": "4", "label": "4 Star" },
+            { "value": "5", "label": "5 Star" }
+          ]
+        },
+        {
+          "type": "richtext",
+          "id": "text",
+          "label": "Text"
+        },
+        {
+          "type": "text",
+          "id": "author_name",
+          "label": "Author name"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Testimonials fourth"
+    }
+  ]
+}
+{% endschema %}
